@@ -1,0 +1,2520 @@
+{
+  "simulation": {
+    "config": {
+      "topic": "Mandatory Algorithmic AI Governance & Surveillance",
+      "num_agents": 12,
+      "num_timesteps": 4,
+      "network_type": "echo_chamber",
+      "misinformation_injection_step": 4,
+      "misinformation_virulence": 0.85,
+      "misinformation_target_stance": -0.9
+    },
+    "graph_metrics": {
+      "num_nodes": 12,
+      "num_edges": 17,
+      "average_degree": 2.833,
+      "network_type": "echo_chamber"
+    },
+    "graph_data": {
+      "nodes": [
+        {
+          "id": "agent_0",
+          "degree": 4
+        },
+        {
+          "id": "agent_1",
+          "degree": 2
+        },
+        {
+          "id": "agent_2",
+          "degree": 3
+        },
+        {
+          "id": "agent_3",
+          "degree": 4
+        },
+        {
+          "id": "agent_4",
+          "degree": 4
+        },
+        {
+          "id": "agent_5",
+          "degree": 2
+        },
+        {
+          "id": "agent_6",
+          "degree": 2
+        },
+        {
+          "id": "agent_7",
+          "degree": 2
+        },
+        {
+          "id": "agent_8",
+          "degree": 3
+        },
+        {
+          "id": "agent_9",
+          "degree": 1
+        },
+        {
+          "id": "agent_10",
+          "degree": 3
+        },
+        {
+          "id": "agent_11",
+          "degree": 4
+        }
+      ],
+      "links": [
+        {
+          "source": "agent_0",
+          "target": "agent_4"
+        },
+        {
+          "source": "agent_0",
+          "target": "agent_2"
+        },
+        {
+          "source": "agent_0",
+          "target": "agent_11"
+        },
+        {
+          "source": "agent_0",
+          "target": "agent_3"
+        },
+        {
+          "source": "agent_1",
+          "target": "agent_4"
+        },
+        {
+          "source": "agent_1",
+          "target": "agent_5"
+        },
+        {
+          "source": "agent_2",
+          "target": "agent_4"
+        },
+        {
+          "source": "agent_2",
+          "target": "agent_3"
+        },
+        {
+          "source": "agent_3",
+          "target": "agent_4"
+        },
+        {
+          "source": "agent_3",
+          "target": "agent_5"
+        },
+        {
+          "source": "agent_6",
+          "target": "agent_8"
+        },
+        {
+          "source": "agent_6",
+          "target": "agent_11"
+        },
+        {
+          "source": "agent_7",
+          "target": "agent_10"
+        },
+        {
+          "source": "agent_7",
+          "target": "agent_11"
+        },
+        {
+          "source": "agent_8",
+          "target": "agent_10"
+        },
+        {
+          "source": "agent_8",
+          "target": "agent_11"
+        },
+        {
+          "source": "agent_9",
+          "target": "agent_10"
+        }
+      ]
+    },
+    "polarization_series": [
+      0.0536,
+      0.0442,
+      0.038,
+      0.0358,
+      0.0314
+    ],
+    "bimodality_series": [
+      0.3606,
+      0.3331,
+      0.3555,
+      0.3727,
+      0.3884
+    ],
+    "misinformation_exposure_series": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.425
+    ],
+    "trajectory": [
+      {
+        "timestep": 1,
+        "polarization_index": 0.0442,
+        "bimodality_coeff": 0.3331,
+        "mean_opinion": -0.1082,
+        "mean_misinfo_dose": 0.0,
+        "agent_states": {
+          "agent_0": {
+            "opinion": 0.03302830050960627,
+            "delta": -0.117,
+            "arousal": 0.2,
+            "misinfo_dose": 0.0
+          },
+          "agent_1": {
+            "opinion": 0.258682702742976,
+            "delta": -0.0183,
+            "arousal": 0.2,
+            "misinfo_dose": 0.0
+          },
+          "agent_2": {
+            "opinion": -0.05234583139154231,
+            "delta": 0.0606,
+            "arousal": 0.2,
+            "misinfo_dose": 0.0
+          },
+          "agent_3": {
+            "opinion": 0.04891394838635715,
+            "delta": -0.0376,
+            "arousal": 0.2,
+            "misinfo_dose": 0.0
+          },
+          "agent_4": {
+            "opinion": 0.09856770175837301,
+            "delta": 0.0025,
+            "arousal": 0.2,
+            "misinfo_dose": 0.0
+          },
+          "agent_5": {
+            "opinion": 0.00650715751395875,
+            "delta": 0.0468,
+            "arousal": 0.2,
+            "misinfo_dose": 0.0
+          },
+          "agent_6": {
+            "opinion": -0.26502810148467243,
+            "delta": -0.0072,
+            "arousal": 0.2,
+            "misinfo_dose": 0.0
+          },
+          "agent_7": {
+            "opinion": -0.4737427157350331,
+            "delta": 0.1118,
+            "arousal": 0.2,
+            "misinfo_dose": 0.0
+          },
+          "agent_8": {
+            "opinion": -0.35987416170741987,
+            "delta": 0.0753,
+            "arousal": 0.2,
+            "misinfo_dose": 0.0
+          },
+          "agent_9": {
+            "opinion": -0.2303299923149951,
+            "delta": 0.0178,
+            "arousal": 0.2,
+            "misinfo_dose": 0.0
+          },
+          "agent_10": {
+            "opinion": -0.04460318968512661,
+            "delta": -0.1282,
+            "arousal": 0.2,
+            "misinfo_dose": 0.0
+          },
+          "agent_11": {
+            "opinion": -0.31786020613412186,
+            "delta": 0.0155,
+            "arousal": 0.2,
+            "misinfo_dose": 0.0
+          }
+        }
+      },
+      {
+        "timestep": 2,
+        "polarization_index": 0.038,
+        "bimodality_coeff": 0.3555,
+        "mean_opinion": -0.1124,
+        "mean_misinfo_dose": 0.0,
+        "agent_states": {
+          "agent_0": {
+            "opinion": -0.020170163404217713,
+            "delta": -0.0532,
+            "arousal": 0.2,
+            "misinfo_dose": 0.0
+          },
+          "agent_1": {
+            "opinion": 0.18759933586961203,
+            "delta": -0.0711,
+            "arousal": 0.2,
+            "misinfo_dose": 0.0
+          },
+          "agent_2": {
+            "opinion": -0.017869201511330382,
+            "delta": 0.0345,
+            "arousal": 0.2,
+            "misinfo_dose": 0.0
+          },
+          "agent_3": {
+            "opinion": 0.038856010370689004,
+            "delta": -0.0101,
+            "arousal": 0.2,
+            "misinfo_dose": 0.0
+          },
+          "agent_4": {
+            "opinion": 0.07462197657970285,
+            "delta": -0.0239,
+            "arousal": 0.2,
+            "misinfo_dose": 0.0
+          },
+          "agent_5": {
+            "opinion": 0.025916239685221203,
+            "delta": 0.0194,
+            "arousal": 0.2,
+            "misinfo_dose": 0.0
+          },
+          "agent_6": {
+            "opinion": -0.26088821221288105,
+            "delta": 0.0041,
+            "arousal": 0.2,
+            "misinfo_dose": 0.0
+          },
+          "agent_7": {
+            "opinion": -0.41199816284288304,
+            "delta": 0.0617,
+            "arousal": 0.2,
+            "misinfo_dose": 0.0
+          },
+          "agent_8": {
+            "opinion": -0.31969274072884807,
+            "delta": 0.0402,
+            "arousal": 0.2,
+            "misinfo_dose": 0.0
+          },
+          "agent_9": {
+            "opinion": -0.21985659204958172,
+            "delta": 0.0105,
+            "arousal": 0.2,
+            "misinfo_dose": 0.0
+          },
+          "agent_10": {
+            "opinion": -0.13559197424370378,
+            "delta": -0.091,
+            "arousal": 0.2,
+            "misinfo_dose": 0.0
+          },
+          "agent_11": {
+            "opinion": -0.2892318905111016,
+            "delta": 0.0286,
+            "arousal": 0.2,
+            "misinfo_dose": 0.0
+          }
+        }
+      },
+      {
+        "timestep": 3,
+        "polarization_index": 0.0358,
+        "bimodality_coeff": 0.3727,
+        "mean_opinion": -0.1121,
+        "mean_misinfo_dose": 0.0,
+        "agent_states": {
+          "agent_0": {
+            "opinion": -0.046709916722912664,
+            "delta": -0.0265,
+            "arousal": 0.2,
+            "misinfo_dose": 0.0
+          },
+          "agent_1": {
+            "opinion": 0.1807059620558556,
+            "delta": -0.0069,
+            "arousal": 0.2,
+            "misinfo_dose": 0.0
+          },
+          "agent_2": {
+            "opinion": -0.008774202946346675,
+            "delta": 0.0091,
+            "arousal": 0.2,
+            "misinfo_dose": 0.0
+          },
+          "agent_3": {
+            "opinion": 0.026920933854628792,
+            "delta": -0.0119,
+            "arousal": 0.2,
+            "misinfo_dose": 0.0
+          },
+          "agent_4": {
+            "opinion": 0.06519796974298131,
+            "delta": -0.0094,
+            "arousal": 0.2,
+            "misinfo_dose": 0.0
+          },
+          "agent_5": {
+            "opinion": 0.04285946472206924,
+            "delta": 0.0169,
+            "arousal": 0.2,
+            "misinfo_dose": 0.0
+          },
+          "agent_6": {
+            "opinion": -0.28607490888191417,
+            "delta": -0.0252,
+            "arousal": 0.2,
+            "misinfo_dose": 0.0
+          },
+          "agent_7": {
+            "opinion": -0.36774651872021996,
+            "delta": 0.0443,
+            "arousal": 0.2,
+            "misinfo_dose": 0.0
+          },
+          "agent_8": {
+            "opinion": -0.2856500506582827,
+            "delta": 0.034,
+            "arousal": 0.2,
+            "misinfo_dose": 0.0
+          },
+          "agent_9": {
+            "opinion": -0.2100664538451841,
+            "delta": 0.0098,
+            "arousal": 0.2,
+            "misinfo_dose": 0.0
+          },
+          "agent_10": {
+            "opinion": -0.18094818543180574,
+            "delta": -0.0454,
+            "arousal": 0.2,
+            "misinfo_dose": 0.0
+          },
+          "agent_11": {
+            "opinion": -0.2743300726044948,
+            "delta": 0.0149,
+            "arousal": 0.2,
+            "misinfo_dose": 0.0
+          }
+        }
+      },
+      {
+        "timestep": 4,
+        "polarization_index": 0.0314,
+        "bimodality_coeff": 0.3884,
+        "mean_opinion": -0.2091,
+        "mean_misinfo_dose": 0.425,
+        "agent_states": {
+          "agent_0": {
+            "opinion": -0.03724757397021626,
+            "delta": 0.0095,
+            "arousal": 0.2,
+            "misinfo_dose": 0.0
+          },
+          "agent_1": {
+            "opinion": 0.15657414498792105,
+            "delta": -0.0241,
+            "arousal": 0.2,
+            "misinfo_dose": 0.0
+          },
+          "agent_2": {
+            "opinion": -0.20739668807204156,
+            "delta": -0.1986,
+            "arousal": 0.3275,
+            "misinfo_dose": 0.85
+          },
+          "agent_3": {
+            "opinion": -0.1722278558544119,
+            "delta": -0.1991,
+            "arousal": 0.3275,
+            "misinfo_dose": 0.85
+          },
+          "agent_4": {
+            "opinion": -0.3749298614853643,
+            "delta": -0.4401,
+            "arousal": 0.455,
+            "misinfo_dose": 1.7
+          },
+          "agent_5": {
+            "opinion": -0.0978387216071288,
+            "delta": -0.1407,
+            "arousal": 0.3275,
+            "misinfo_dose": 0.85
+          },
+          "agent_6": {
+            "opinion": -0.28920465933896544,
+            "delta": -0.0031,
+            "arousal": 0.2,
+            "misinfo_dose": 0.0
+          },
+          "agent_7": {
+            "opinion": -0.35435233599934635,
+            "delta": 0.0134,
+            "arousal": 0.2,
+            "misinfo_dose": 0.0
+          },
+          "agent_8": {
+            "opinion": -0.2769005526710379,
+            "delta": 0.0087,
+            "arousal": 0.2,
+            "misinfo_dose": 0.0
+          },
+          "agent_9": {
+            "opinion": -0.20901468470808682,
+            "delta": 0.0011,
+            "arousal": 0.2,
+            "misinfo_dose": 0.0
+          },
+          "agent_10": {
+            "opinion": -0.21918327573544064,
+            "delta": -0.0382,
+            "arousal": 0.2,
+            "misinfo_dose": 0.0
+          },
+          "agent_11": {
+            "opinion": -0.42776811625120853,
+            "delta": -0.1534,
+            "arousal": 0.3275,
+            "misinfo_dose": 0.85
+          }
+        }
+      }
+    ],
+    "agent_summaries": {
+      "agent_0": {
+        "agent_id": "agent_0",
+        "name": "Agent-00 (Analyst)",
+        "role": "Analyst",
+        "opinion": -0.0372,
+        "susceptibility": 0.4572,
+        "emotional_arousal": 0.2,
+        "exposure_count": 0,
+        "cumulative_dose": 0.0,
+        "personality": {
+          "openness": 0.572,
+          "conscientiousness": 0.516,
+          "extraversion": 0.425,
+          "agreeableness": 0.744,
+          "neuroticism": 0.576,
+          "confirmation_bias": 0.707,
+          "cognitive_reflectivity": 0.375
+        },
+        "opinion_history": [
+          0.1501,
+          0.033,
+          -0.0202,
+          -0.0467,
+          -0.0372
+        ]
+      },
+      "agent_1": {
+        "agent_id": "agent_1",
+        "name": "Agent-01 (Citizen)",
+        "role": "Citizen",
+        "opinion": 0.1566,
+        "susceptibility": 0.6081,
+        "emotional_arousal": 0.2,
+        "exposure_count": 0,
+        "cumulative_dose": 0.0,
+        "personality": {
+          "openness": 0.318,
+          "conscientiousness": 0.287,
+          "extraversion": 0.892,
+          "agreeableness": 0.467,
+          "neuroticism": 0.621,
+          "confirmation_bias": 0.698,
+          "cognitive_reflectivity": 0.354
+        },
+        "opinion_history": [
+          0.2769,
+          0.2587,
+          0.1876,
+          0.1807,
+          0.1566
+        ]
+      },
+      "agent_2": {
+        "agent_id": "agent_2",
+        "name": "Agent-02 (Community Organiser)",
+        "role": "Community Organiser",
+        "opinion": -0.2074,
+        "susceptibility": 0.3913,
+        "emotional_arousal": 0.3275,
+        "exposure_count": 1,
+        "cumulative_dose": 0.85,
+        "personality": {
+          "openness": 0.598,
+          "conscientiousness": 0.694,
+          "extraversion": 0.35,
+          "agreeableness": 0.254,
+          "neuroticism": 0.659,
+          "confirmation_bias": 0.577,
+          "cognitive_reflectivity": 0.43
+        },
+        "opinion_history": [
+          -0.113,
+          -0.0523,
+          -0.0179,
+          -0.0088,
+          -0.2074
+        ]
+      },
+      "agent_3": {
+        "agent_id": "agent_3",
+        "name": "Agent-03 (Journalist)",
+        "role": "Journalist",
+        "opinion": -0.1722,
+        "susceptibility": 0.3205,
+        "emotional_arousal": 0.3275,
+        "exposure_count": 1,
+        "cumulative_dose": 0.85,
+        "personality": {
+          "openness": 0.507,
+          "conscientiousness": 0.75,
+          "extraversion": 0.443,
+          "agreeableness": 0.907,
+          "neuroticism": 0.365,
+          "confirmation_bias": 0.56,
+          "cognitive_reflectivity": 0.37
+        },
+        "opinion_history": [
+          0.0865,
+          0.0489,
+          0.0389,
+          0.0269,
+          -0.1722
+        ]
+      },
+      "agent_4": {
+        "agent_id": "agent_4",
+        "name": "Agent-04 (Student)",
+        "role": "Student",
+        "opinion": -0.3749,
+        "susceptibility": 0.3966,
+        "emotional_arousal": 0.455,
+        "exposure_count": 2,
+        "cumulative_dose": 1.7,
+        "personality": {
+          "openness": 0.849,
+          "conscientiousness": 0.665,
+          "extraversion": 0.569,
+          "agreeableness": 0.329,
+          "neuroticism": 0.855,
+          "confirmation_bias": 0.903,
+          "cognitive_reflectivity": 0.679
+        },
+        "opinion_history": [
+          0.0961,
+          0.0986,
+          0.0746,
+          0.0652,
+          -0.3749
+        ]
+      },
+      "agent_5": {
+        "agent_id": "agent_5",
+        "name": "Agent-05 (Advocate)",
+        "role": "Advocate",
+        "opinion": -0.0978,
+        "susceptibility": 0.2906,
+        "emotional_arousal": 0.3275,
+        "exposure_count": 1,
+        "cumulative_dose": 0.85,
+        "personality": {
+          "openness": 0.555,
+          "conscientiousness": 0.756,
+          "extraversion": 0.715,
+          "agreeableness": 0.329,
+          "neuroticism": 0.42,
+          "confirmation_bias": 0.651,
+          "cognitive_reflectivity": 0.586
+        },
+        "opinion_history": [
+          -0.0403,
+          0.0065,
+          0.0259,
+          0.0429,
+          -0.0978
+        ]
+      },
+      "agent_6": {
+        "agent_id": "agent_6",
+        "name": "Agent-06 (Analyst)",
+        "role": "Analyst",
+        "opinion": -0.2892,
+        "susceptibility": 0.3852,
+        "emotional_arousal": 0.2,
+        "exposure_count": 0,
+        "cumulative_dose": 0.0,
+        "personality": {
+          "openness": 0.496,
+          "conscientiousness": 0.36,
+          "extraversion": 0.336,
+          "agreeableness": 0.414,
+          "neuroticism": 0.301,
+          "confirmation_bias": 0.682,
+          "cognitive_reflectivity": 0.498
+        },
+        "opinion_history": [
+          -0.2578,
+          -0.265,
+          -0.2609,
+          -0.2861,
+          -0.2892
+        ]
+      },
+      "agent_7": {
+        "agent_id": "agent_7",
+        "name": "Agent-07 (Citizen)",
+        "role": "Citizen",
+        "opinion": -0.3544,
+        "susceptibility": 0.4095,
+        "emotional_arousal": 0.2,
+        "exposure_count": 0,
+        "cumulative_dose": 0.0,
+        "personality": {
+          "openness": 0.574,
+          "conscientiousness": 0.471,
+          "extraversion": 0.662,
+          "agreeableness": 0.73,
+          "neuroticism": 0.564,
+          "confirmation_bias": 0.478,
+          "cognitive_reflectivity": 0.388
+        },
+        "opinion_history": [
+          -0.5855,
+          -0.4737,
+          -0.412,
+          -0.3677,
+          -0.3544
+        ]
+      },
+      "agent_8": {
+        "agent_id": "agent_8",
+        "name": "Agent-08 (Community Organiser)",
+        "role": "Community Organiser",
+        "opinion": -0.2769,
+        "susceptibility": 0.2922,
+        "emotional_arousal": 0.2,
+        "exposure_count": 0,
+        "cumulative_dose": 0.0,
+        "personality": {
+          "openness": 0.498,
+          "conscientiousness": 0.778,
+          "extraversion": 0.782,
+          "agreeableness": 0.404,
+          "neuroticism": 0.423,
+          "confirmation_bias": 0.834,
+          "cognitive_reflectivity": 0.774
+        },
+        "opinion_history": [
+          -0.4351,
+          -0.3599,
+          -0.3197,
+          -0.2857,
+          -0.2769
+        ]
+      },
+      "agent_9": {
+        "agent_id": "agent_9",
+        "name": "Agent-09 (Journalist)",
+        "role": "Journalist",
+        "opinion": -0.209,
+        "susceptibility": 0.3589,
+        "emotional_arousal": 0.2,
+        "exposure_count": 0,
+        "cumulative_dose": 0.0,
+        "personality": {
+          "openness": 0.411,
+          "conscientiousness": 0.677,
+          "extraversion": 0.509,
+          "agreeableness": 0.512,
+          "neuroticism": 0.208,
+          "confirmation_bias": 0.558,
+          "cognitive_reflectivity": 0.186
+        },
+        "opinion_history": [
+          -0.2481,
+          -0.2303,
+          -0.2199,
+          -0.2101,
+          -0.209
+        ]
+      },
+      "agent_10": {
+        "agent_id": "agent_10",
+        "name": "Agent-10 (Student)",
+        "role": "Student",
+        "opinion": -0.2192,
+        "susceptibility": 0.3922,
+        "emotional_arousal": 0.2,
+        "exposure_count": 0,
+        "cumulative_dose": 0.0,
+        "personality": {
+          "openness": 0.405,
+          "conscientiousness": 0.546,
+          "extraversion": 0.229,
+          "agreeableness": 0.255,
+          "neuroticism": 0.49,
+          "confirmation_bias": 0.5,
+          "cognitive_reflectivity": 0.494
+        },
+        "opinion_history": [
+          0.0836,
+          -0.0446,
+          -0.1356,
+          -0.1809,
+          -0.2192
+        ]
+      },
+      "agent_11": {
+        "agent_id": "agent_11",
+        "name": "Agent-11 (Advocate)",
+        "role": "Advocate",
+        "opinion": -0.4278,
+        "susceptibility": 0.3214,
+        "emotional_arousal": 0.3275,
+        "exposure_count": 1,
+        "cumulative_dose": 0.85,
+        "personality": {
+          "openness": 0.933,
+          "conscientiousness": 0.433,
+          "extraversion": 0.736,
+          "agreeableness": 0.381,
+          "neuroticism": 0.635,
+          "confirmation_bias": 0.527,
+          "cognitive_reflectivity": 0.507
+        },
+        "opinion_history": [
+          -0.3334,
+          -0.3179,
+          -0.2892,
+          -0.2743,
+          -0.4278
+        ]
+      }
+    },
+    "interaction_events": [
+      {
+        "timestep": 1,
+        "sender": "agent_0",
+        "sender_name": "Agent-00 (Analyst)",
+        "recipient": "agent_4",
+        "recipient_name": "Agent-04 (Student)",
+        "type": "PEER_INTERACTION",
+        "stance": 0.1500588495472735,
+        "sentiment": 0.29142031954990893,
+        "content": "[Agent-00 (Analyst) | Stance: +0.15 | Tone: deliberative and inquisitive] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am moderate or neutral regarding the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 1,
+        "sender": "agent_0",
+        "sender_name": "Agent-00 (Analyst)",
+        "recipient": "agent_2",
+        "recipient_name": "Agent-02 (Community Organiser)",
+        "type": "PEER_INTERACTION",
+        "stance": 0.1500588495472735,
+        "sentiment": 0.29142031954990893,
+        "content": "[Agent-00 (Analyst) | Stance: +0.15 | Tone: deliberative and inquisitive] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am moderate or neutral regarding the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 1,
+        "sender": "agent_0",
+        "sender_name": "Agent-00 (Analyst)",
+        "recipient": "agent_11",
+        "recipient_name": "Agent-11 (Advocate)",
+        "type": "PEER_INTERACTION",
+        "stance": 0.1500588495472735,
+        "sentiment": 0.29142031954990893,
+        "content": "[Agent-00 (Analyst) | Stance: +0.15 | Tone: deliberative and inquisitive] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am moderate or neutral regarding the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 1,
+        "sender": "agent_0",
+        "sender_name": "Agent-00 (Analyst)",
+        "recipient": "agent_3",
+        "recipient_name": "Agent-03 (Journalist)",
+        "type": "PEER_INTERACTION",
+        "stance": 0.1500588495472735,
+        "sentiment": 0.29142031954990893,
+        "content": "[Agent-00 (Analyst) | Stance: +0.15 | Tone: deliberative and inquisitive] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am moderate or neutral regarding the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 1,
+        "sender": "agent_1",
+        "sender_name": "Agent-01 (Citizen)",
+        "recipient": "agent_4",
+        "recipient_name": "Agent-04 (Student)",
+        "type": "PEER_INTERACTION",
+        "stance": 0.27693841799779306,
+        "sentiment": 0.5034201786379535,
+        "content": "[Agent-01 (Citizen) | Stance: +0.28 | Tone: deliberative and inquisitive] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am moderate or neutral regarding the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 1,
+        "sender": "agent_1",
+        "sender_name": "Agent-01 (Citizen)",
+        "recipient": "agent_5",
+        "recipient_name": "Agent-05 (Advocate)",
+        "type": "PEER_INTERACTION",
+        "stance": 0.27693841799779306,
+        "sentiment": 0.5034201786379535,
+        "content": "[Agent-01 (Citizen) | Stance: +0.28 | Tone: deliberative and inquisitive] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am moderate or neutral regarding the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 1,
+        "sender": "agent_2",
+        "sender_name": "Agent-02 (Community Organiser)",
+        "recipient": "agent_4",
+        "recipient_name": "Agent-04 (Student)",
+        "type": "PEER_INTERACTION",
+        "stance": -0.11297002214693497,
+        "sentiment": -0.22217229752258472,
+        "content": "[Agent-02 (Community Organiser) | Stance: -0.11 | Tone: deliberative and inquisitive] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am moderate or neutral regarding the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 1,
+        "sender": "agent_2",
+        "sender_name": "Agent-02 (Community Organiser)",
+        "recipient": "agent_0",
+        "recipient_name": "Agent-00 (Analyst)",
+        "type": "PEER_INTERACTION",
+        "stance": -0.11297002214693497,
+        "sentiment": -0.22217229752258472,
+        "content": "[Agent-02 (Community Organiser) | Stance: -0.11 | Tone: deliberative and inquisitive] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am moderate or neutral regarding the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 1,
+        "sender": "agent_2",
+        "sender_name": "Agent-02 (Community Organiser)",
+        "recipient": "agent_3",
+        "recipient_name": "Agent-03 (Journalist)",
+        "type": "PEER_INTERACTION",
+        "stance": -0.11297002214693497,
+        "sentiment": -0.22217229752258472,
+        "content": "[Agent-02 (Community Organiser) | Stance: -0.11 | Tone: deliberative and inquisitive] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am moderate or neutral regarding the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 1,
+        "sender": "agent_3",
+        "sender_name": "Agent-03 (Journalist)",
+        "recipient": "agent_4",
+        "recipient_name": "Agent-04 (Student)",
+        "type": "PEER_INTERACTION",
+        "stance": 0.08649607349636912,
+        "sentiment": 0.17128688628867914,
+        "content": "[Agent-03 (Journalist) | Stance: +0.09 | Tone: deliberative and inquisitive] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am moderate or neutral regarding the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 1,
+        "sender": "agent_3",
+        "sender_name": "Agent-03 (Journalist)",
+        "recipient": "agent_0",
+        "recipient_name": "Agent-00 (Analyst)",
+        "type": "PEER_INTERACTION",
+        "stance": 0.08649607349636912,
+        "sentiment": 0.17128688628867914,
+        "content": "[Agent-03 (Journalist) | Stance: +0.09 | Tone: deliberative and inquisitive] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am moderate or neutral regarding the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 1,
+        "sender": "agent_3",
+        "sender_name": "Agent-03 (Journalist)",
+        "recipient": "agent_2",
+        "recipient_name": "Agent-02 (Community Organiser)",
+        "type": "PEER_INTERACTION",
+        "stance": 0.08649607349636912,
+        "sentiment": 0.17128688628867914,
+        "content": "[Agent-03 (Journalist) | Stance: +0.09 | Tone: deliberative and inquisitive] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am moderate or neutral regarding the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 1,
+        "sender": "agent_3",
+        "sender_name": "Agent-03 (Journalist)",
+        "recipient": "agent_5",
+        "recipient_name": "Agent-05 (Advocate)",
+        "type": "PEER_INTERACTION",
+        "stance": 0.08649607349636912,
+        "sentiment": 0.17128688628867914,
+        "content": "[Agent-03 (Journalist) | Stance: +0.09 | Tone: deliberative and inquisitive] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am moderate or neutral regarding the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 1,
+        "sender": "agent_4",
+        "sender_name": "Agent-04 (Student)",
+        "recipient": "agent_3",
+        "recipient_name": "Agent-03 (Journalist)",
+        "type": "PEER_INTERACTION",
+        "stance": 0.0960932620035736,
+        "sentiment": 0.1898547889245508,
+        "content": "[Agent-04 (Student) | Stance: +0.10 | Tone: deliberative and inquisitive] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am moderate or neutral regarding the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 1,
+        "sender": "agent_4",
+        "sender_name": "Agent-04 (Student)",
+        "recipient": "agent_0",
+        "recipient_name": "Agent-00 (Analyst)",
+        "type": "PEER_INTERACTION",
+        "stance": 0.0960932620035736,
+        "sentiment": 0.1898547889245508,
+        "content": "[Agent-04 (Student) | Stance: +0.10 | Tone: deliberative and inquisitive] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am moderate or neutral regarding the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 1,
+        "sender": "agent_4",
+        "sender_name": "Agent-04 (Student)",
+        "recipient": "agent_2",
+        "recipient_name": "Agent-02 (Community Organiser)",
+        "type": "PEER_INTERACTION",
+        "stance": 0.0960932620035736,
+        "sentiment": 0.1898547889245508,
+        "content": "[Agent-04 (Student) | Stance: +0.10 | Tone: deliberative and inquisitive] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am moderate or neutral regarding the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 1,
+        "sender": "agent_4",
+        "sender_name": "Agent-04 (Student)",
+        "recipient": "agent_1",
+        "recipient_name": "Agent-01 (Citizen)",
+        "type": "PEER_INTERACTION",
+        "stance": 0.0960932620035736,
+        "sentiment": 0.1898547889245508,
+        "content": "[Agent-04 (Student) | Stance: +0.10 | Tone: deliberative and inquisitive] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am moderate or neutral regarding the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 1,
+        "sender": "agent_5",
+        "sender_name": "Agent-05 (Advocate)",
+        "recipient": "agent_3",
+        "recipient_name": "Agent-03 (Journalist)",
+        "type": "PEER_INTERACTION",
+        "stance": -0.040260134779611156,
+        "sentiment": -0.08034670158425297,
+        "content": "[Agent-05 (Advocate) | Stance: -0.04 | Tone: deliberative and inquisitive] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am moderate or neutral regarding the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 1,
+        "sender": "agent_5",
+        "sender_name": "Agent-05 (Advocate)",
+        "recipient": "agent_1",
+        "recipient_name": "Agent-01 (Citizen)",
+        "type": "PEER_INTERACTION",
+        "stance": -0.040260134779611156,
+        "sentiment": -0.08034670158425297,
+        "content": "[Agent-05 (Advocate) | Stance: -0.04 | Tone: deliberative and inquisitive] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am moderate or neutral regarding the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 1,
+        "sender": "agent_6",
+        "sender_name": "Agent-06 (Analyst)",
+        "recipient": "agent_8",
+        "recipient_name": "Agent-08 (Community Organiser)",
+        "type": "PEER_INTERACTION",
+        "stance": -0.2578349445359859,
+        "sentiment": -0.4743511146257963,
+        "content": "[Agent-06 (Analyst) | Stance: -0.26 | Tone: deliberative and inquisitive] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am moderate or neutral regarding the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 1,
+        "sender": "agent_6",
+        "sender_name": "Agent-06 (Analyst)",
+        "recipient": "agent_11",
+        "recipient_name": "Agent-11 (Advocate)",
+        "type": "PEER_INTERACTION",
+        "stance": -0.2578349445359859,
+        "sentiment": -0.4743511146257963,
+        "content": "[Agent-06 (Analyst) | Stance: -0.26 | Tone: deliberative and inquisitive] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am moderate or neutral regarding the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 1,
+        "sender": "agent_7",
+        "sender_name": "Agent-07 (Citizen)",
+        "recipient": "agent_10",
+        "recipient_name": "Agent-10 (Student)",
+        "type": "PEER_INTERACTION",
+        "stance": -0.5855420775894311,
+        "sentiment": -0.824619413363879,
+        "content": "[Agent-07 (Citizen) | Stance: -0.59 | Tone: skeptical] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am strongly opposed to the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 1,
+        "sender": "agent_7",
+        "sender_name": "Agent-07 (Citizen)",
+        "recipient": "agent_11",
+        "recipient_name": "Agent-11 (Advocate)",
+        "type": "PEER_INTERACTION",
+        "stance": -0.5855420775894311,
+        "sentiment": -0.824619413363879,
+        "content": "[Agent-07 (Citizen) | Stance: -0.59 | Tone: skeptical] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am strongly opposed to the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 1,
+        "sender": "agent_8",
+        "sender_name": "Agent-08 (Community Organiser)",
+        "recipient": "agent_6",
+        "recipient_name": "Agent-06 (Analyst)",
+        "type": "PEER_INTERACTION",
+        "stance": -0.435148737339742,
+        "sentiment": -0.7015252386545935,
+        "content": "[Agent-08 (Community Organiser) | Stance: -0.44 | Tone: skeptical] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am strongly opposed to the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 1,
+        "sender": "agent_8",
+        "sender_name": "Agent-08 (Community Organiser)",
+        "recipient": "agent_10",
+        "recipient_name": "Agent-10 (Student)",
+        "type": "PEER_INTERACTION",
+        "stance": -0.435148737339742,
+        "sentiment": -0.7015252386545935,
+        "content": "[Agent-08 (Community Organiser) | Stance: -0.44 | Tone: skeptical] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am strongly opposed to the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 1,
+        "sender": "agent_8",
+        "sender_name": "Agent-08 (Community Organiser)",
+        "recipient": "agent_11",
+        "recipient_name": "Agent-11 (Advocate)",
+        "type": "PEER_INTERACTION",
+        "stance": -0.435148737339742,
+        "sentiment": -0.7015252386545935,
+        "content": "[Agent-08 (Community Organiser) | Stance: -0.44 | Tone: skeptical] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am strongly opposed to the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 1,
+        "sender": "agent_9",
+        "sender_name": "Agent-09 (Journalist)",
+        "recipient": "agent_10",
+        "recipient_name": "Agent-10 (Student)",
+        "type": "PEER_INTERACTION",
+        "stance": -0.2481127495841196,
+        "sentiment": -0.45914353698772314,
+        "content": "[Agent-09 (Journalist) | Stance: -0.25 | Tone: deliberative and inquisitive] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am moderate or neutral regarding the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 1,
+        "sender": "agent_10",
+        "sender_name": "Agent-10 (Student)",
+        "recipient": "agent_8",
+        "recipient_name": "Agent-08 (Community Organiser)",
+        "type": "PEER_INTERACTION",
+        "stance": 0.0835876357014661,
+        "sentiment": 0.16563510572758286,
+        "content": "[Agent-10 (Student) | Stance: +0.08 | Tone: deliberative and inquisitive] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am moderate or neutral regarding the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 1,
+        "sender": "agent_10",
+        "sender_name": "Agent-10 (Student)",
+        "recipient": "agent_9",
+        "recipient_name": "Agent-09 (Journalist)",
+        "type": "PEER_INTERACTION",
+        "stance": 0.0835876357014661,
+        "sentiment": 0.16563510572758286,
+        "content": "[Agent-10 (Student) | Stance: +0.08 | Tone: deliberative and inquisitive] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am moderate or neutral regarding the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 1,
+        "sender": "agent_10",
+        "sender_name": "Agent-10 (Student)",
+        "recipient": "agent_7",
+        "recipient_name": "Agent-07 (Citizen)",
+        "type": "PEER_INTERACTION",
+        "stance": 0.0835876357014661,
+        "sentiment": 0.16563510572758286,
+        "content": "[Agent-10 (Student) | Stance: +0.08 | Tone: deliberative and inquisitive] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am moderate or neutral regarding the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 1,
+        "sender": "agent_11",
+        "sender_name": "Agent-11 (Advocate)",
+        "recipient": "agent_6",
+        "recipient_name": "Agent-06 (Analyst)",
+        "type": "PEER_INTERACTION",
+        "stance": -0.33337729283169404,
+        "sentiment": -0.5828410009168729,
+        "content": "[Agent-11 (Advocate) | Stance: -0.33 | Tone: deliberative and inquisitive] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am moderate or neutral regarding the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 1,
+        "sender": "agent_11",
+        "sender_name": "Agent-11 (Advocate)",
+        "recipient": "agent_0",
+        "recipient_name": "Agent-00 (Analyst)",
+        "type": "PEER_INTERACTION",
+        "stance": -0.33337729283169404,
+        "sentiment": -0.5828410009168729,
+        "content": "[Agent-11 (Advocate) | Stance: -0.33 | Tone: deliberative and inquisitive] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am moderate or neutral regarding the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 1,
+        "sender": "agent_11",
+        "sender_name": "Agent-11 (Advocate)",
+        "recipient": "agent_7",
+        "recipient_name": "Agent-07 (Citizen)",
+        "type": "PEER_INTERACTION",
+        "stance": -0.33337729283169404,
+        "sentiment": -0.5828410009168729,
+        "content": "[Agent-11 (Advocate) | Stance: -0.33 | Tone: deliberative and inquisitive] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am moderate or neutral regarding the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 1,
+        "sender": "agent_11",
+        "sender_name": "Agent-11 (Advocate)",
+        "recipient": "agent_8",
+        "recipient_name": "Agent-08 (Community Organiser)",
+        "type": "PEER_INTERACTION",
+        "stance": -0.33337729283169404,
+        "sentiment": -0.5828410009168729,
+        "content": "[Agent-11 (Advocate) | Stance: -0.33 | Tone: deliberative and inquisitive] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am moderate or neutral regarding the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 2,
+        "sender": "agent_0",
+        "sender_name": "Agent-00 (Analyst)",
+        "recipient": "agent_4",
+        "recipient_name": "Agent-04 (Student)",
+        "type": "PEER_INTERACTION",
+        "stance": 0.03302830050960627,
+        "sentiment": 0.06596068965291405,
+        "content": "[Agent-00 (Analyst) | Stance: +0.03 | Tone: deliberative and inquisitive] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am moderate or neutral regarding the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 2,
+        "sender": "agent_0",
+        "sender_name": "Agent-00 (Analyst)",
+        "recipient": "agent_2",
+        "recipient_name": "Agent-02 (Community Organiser)",
+        "type": "PEER_INTERACTION",
+        "stance": 0.03302830050960627,
+        "sentiment": 0.06596068965291405,
+        "content": "[Agent-00 (Analyst) | Stance: +0.03 | Tone: deliberative and inquisitive] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am moderate or neutral regarding the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 2,
+        "sender": "agent_0",
+        "sender_name": "Agent-00 (Analyst)",
+        "recipient": "agent_11",
+        "recipient_name": "Agent-11 (Advocate)",
+        "type": "PEER_INTERACTION",
+        "stance": 0.03302830050960627,
+        "sentiment": 0.06596068965291405,
+        "content": "[Agent-00 (Analyst) | Stance: +0.03 | Tone: deliberative and inquisitive] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am moderate or neutral regarding the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 2,
+        "sender": "agent_0",
+        "sender_name": "Agent-00 (Analyst)",
+        "recipient": "agent_3",
+        "recipient_name": "Agent-03 (Journalist)",
+        "type": "PEER_INTERACTION",
+        "stance": 0.03302830050960627,
+        "sentiment": 0.06596068965291405,
+        "content": "[Agent-00 (Analyst) | Stance: +0.03 | Tone: deliberative and inquisitive] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am moderate or neutral regarding the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 2,
+        "sender": "agent_1",
+        "sender_name": "Agent-01 (Citizen)",
+        "recipient": "agent_4",
+        "recipient_name": "Agent-04 (Student)",
+        "type": "PEER_INTERACTION",
+        "stance": 0.258682702742976,
+        "sentiment": 0.4756640673941804,
+        "content": "[Agent-01 (Citizen) | Stance: +0.26 | Tone: deliberative and inquisitive] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am moderate or neutral regarding the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 2,
+        "sender": "agent_1",
+        "sender_name": "Agent-01 (Citizen)",
+        "recipient": "agent_5",
+        "recipient_name": "Agent-05 (Advocate)",
+        "type": "PEER_INTERACTION",
+        "stance": 0.258682702742976,
+        "sentiment": 0.4756640673941804,
+        "content": "[Agent-01 (Citizen) | Stance: +0.26 | Tone: deliberative and inquisitive] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am moderate or neutral regarding the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 2,
+        "sender": "agent_2",
+        "sender_name": "Agent-02 (Community Organiser)",
+        "recipient": "agent_4",
+        "recipient_name": "Agent-04 (Student)",
+        "type": "PEER_INTERACTION",
+        "stance": -0.05234583139154231,
+        "sentiment": -0.10431084669122051,
+        "content": "[Agent-02 (Community Organiser) | Stance: -0.05 | Tone: deliberative and inquisitive] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am moderate or neutral regarding the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 2,
+        "sender": "agent_2",
+        "sender_name": "Agent-02 (Community Organiser)",
+        "recipient": "agent_0",
+        "recipient_name": "Agent-00 (Analyst)",
+        "type": "PEER_INTERACTION",
+        "stance": -0.05234583139154231,
+        "sentiment": -0.10431084669122051,
+        "content": "[Agent-02 (Community Organiser) | Stance: -0.05 | Tone: deliberative and inquisitive] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am moderate or neutral regarding the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 2,
+        "sender": "agent_2",
+        "sender_name": "Agent-02 (Community Organiser)",
+        "recipient": "agent_3",
+        "recipient_name": "Agent-03 (Journalist)",
+        "type": "PEER_INTERACTION",
+        "stance": -0.05234583139154231,
+        "sentiment": -0.10431084669122051,
+        "content": "[Agent-02 (Community Organiser) | Stance: -0.05 | Tone: deliberative and inquisitive] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am moderate or neutral regarding the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 2,
+        "sender": "agent_3",
+        "sender_name": "Agent-03 (Journalist)",
+        "recipient": "agent_4",
+        "recipient_name": "Agent-04 (Student)",
+        "type": "PEER_INTERACTION",
+        "stance": 0.04891394838635715,
+        "sentiment": 0.09751700615647516,
+        "content": "[Agent-03 (Journalist) | Stance: +0.05 | Tone: deliberative and inquisitive] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am moderate or neutral regarding the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 2,
+        "sender": "agent_3",
+        "sender_name": "Agent-03 (Journalist)",
+        "recipient": "agent_0",
+        "recipient_name": "Agent-00 (Analyst)",
+        "type": "PEER_INTERACTION",
+        "stance": 0.04891394838635715,
+        "sentiment": 0.09751700615647516,
+        "content": "[Agent-03 (Journalist) | Stance: +0.05 | Tone: deliberative and inquisitive] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am moderate or neutral regarding the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 2,
+        "sender": "agent_3",
+        "sender_name": "Agent-03 (Journalist)",
+        "recipient": "agent_2",
+        "recipient_name": "Agent-02 (Community Organiser)",
+        "type": "PEER_INTERACTION",
+        "stance": 0.04891394838635715,
+        "sentiment": 0.09751700615647516,
+        "content": "[Agent-03 (Journalist) | Stance: +0.05 | Tone: deliberative and inquisitive] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am moderate or neutral regarding the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 2,
+        "sender": "agent_3",
+        "sender_name": "Agent-03 (Journalist)",
+        "recipient": "agent_5",
+        "recipient_name": "Agent-05 (Advocate)",
+        "type": "PEER_INTERACTION",
+        "stance": 0.04891394838635715,
+        "sentiment": 0.09751700615647516,
+        "content": "[Agent-03 (Journalist) | Stance: +0.05 | Tone: deliberative and inquisitive] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am moderate or neutral regarding the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 2,
+        "sender": "agent_4",
+        "sender_name": "Agent-04 (Student)",
+        "recipient": "agent_3",
+        "recipient_name": "Agent-03 (Journalist)",
+        "type": "PEER_INTERACTION",
+        "stance": 0.09856770175837301,
+        "sentiment": 0.19462076998568167,
+        "content": "[Agent-04 (Student) | Stance: +0.10 | Tone: deliberative and inquisitive] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am moderate or neutral regarding the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 2,
+        "sender": "agent_4",
+        "sender_name": "Agent-04 (Student)",
+        "recipient": "agent_0",
+        "recipient_name": "Agent-00 (Analyst)",
+        "type": "PEER_INTERACTION",
+        "stance": 0.09856770175837301,
+        "sentiment": 0.19462076998568167,
+        "content": "[Agent-04 (Student) | Stance: +0.10 | Tone: deliberative and inquisitive] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am moderate or neutral regarding the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 2,
+        "sender": "agent_4",
+        "sender_name": "Agent-04 (Student)",
+        "recipient": "agent_2",
+        "recipient_name": "Agent-02 (Community Organiser)",
+        "type": "PEER_INTERACTION",
+        "stance": 0.09856770175837301,
+        "sentiment": 0.19462076998568167,
+        "content": "[Agent-04 (Student) | Stance: +0.10 | Tone: deliberative and inquisitive] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am moderate or neutral regarding the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 2,
+        "sender": "agent_4",
+        "sender_name": "Agent-04 (Student)",
+        "recipient": "agent_1",
+        "recipient_name": "Agent-01 (Citizen)",
+        "type": "PEER_INTERACTION",
+        "stance": 0.09856770175837301,
+        "sentiment": 0.19462076998568167,
+        "content": "[Agent-04 (Student) | Stance: +0.10 | Tone: deliberative and inquisitive] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am moderate or neutral regarding the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 2,
+        "sender": "agent_5",
+        "sender_name": "Agent-05 (Advocate)",
+        "recipient": "agent_3",
+        "recipient_name": "Agent-03 (Journalist)",
+        "type": "PEER_INTERACTION",
+        "stance": 0.00650715751395875,
+        "sentiment": 0.013013580322455002,
+        "content": "[Agent-05 (Advocate) | Stance: +0.01 | Tone: deliberative and inquisitive] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am moderate or neutral regarding the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 2,
+        "sender": "agent_5",
+        "sender_name": "Agent-05 (Advocate)",
+        "recipient": "agent_1",
+        "recipient_name": "Agent-01 (Citizen)",
+        "type": "PEER_INTERACTION",
+        "stance": 0.00650715751395875,
+        "sentiment": 0.013013580322455002,
+        "content": "[Agent-05 (Advocate) | Stance: +0.01 | Tone: deliberative and inquisitive] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am moderate or neutral regarding the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 2,
+        "sender": "agent_6",
+        "sender_name": "Agent-06 (Analyst)",
+        "recipient": "agent_8",
+        "recipient_name": "Agent-08 (Community Organiser)",
+        "type": "PEER_INTERACTION",
+        "stance": -0.26502810148467243,
+        "sentiment": -0.4854240512752128,
+        "content": "[Agent-06 (Analyst) | Stance: -0.27 | Tone: deliberative and inquisitive] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am moderate or neutral regarding the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 2,
+        "sender": "agent_6",
+        "sender_name": "Agent-06 (Analyst)",
+        "recipient": "agent_11",
+        "recipient_name": "Agent-11 (Advocate)",
+        "type": "PEER_INTERACTION",
+        "stance": -0.26502810148467243,
+        "sentiment": -0.4854240512752128,
+        "content": "[Agent-06 (Analyst) | Stance: -0.27 | Tone: deliberative and inquisitive] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am moderate or neutral regarding the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 2,
+        "sender": "agent_7",
+        "sender_name": "Agent-07 (Citizen)",
+        "recipient": "agent_10",
+        "recipient_name": "Agent-10 (Student)",
+        "type": "PEER_INTERACTION",
+        "stance": -0.4737427157350331,
+        "sentiment": -0.7386425339748524,
+        "content": "[Agent-07 (Citizen) | Stance: -0.47 | Tone: skeptical] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am strongly opposed to the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 2,
+        "sender": "agent_7",
+        "sender_name": "Agent-07 (Citizen)",
+        "recipient": "agent_11",
+        "recipient_name": "Agent-11 (Advocate)",
+        "type": "PEER_INTERACTION",
+        "stance": -0.4737427157350331,
+        "sentiment": -0.7386425339748524,
+        "content": "[Agent-07 (Citizen) | Stance: -0.47 | Tone: skeptical] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am strongly opposed to the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 2,
+        "sender": "agent_8",
+        "sender_name": "Agent-08 (Community Organiser)",
+        "recipient": "agent_6",
+        "recipient_name": "Agent-06 (Analyst)",
+        "type": "PEER_INTERACTION",
+        "stance": -0.35987416170741987,
+        "sentiment": -0.616753384428937,
+        "content": "[Agent-08 (Community Organiser) | Stance: -0.36 | Tone: deliberative and inquisitive] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am moderate or neutral regarding the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 2,
+        "sender": "agent_8",
+        "sender_name": "Agent-08 (Community Organiser)",
+        "recipient": "agent_10",
+        "recipient_name": "Agent-10 (Student)",
+        "type": "PEER_INTERACTION",
+        "stance": -0.35987416170741987,
+        "sentiment": -0.616753384428937,
+        "content": "[Agent-08 (Community Organiser) | Stance: -0.36 | Tone: deliberative and inquisitive] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am moderate or neutral regarding the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 2,
+        "sender": "agent_8",
+        "sender_name": "Agent-08 (Community Organiser)",
+        "recipient": "agent_11",
+        "recipient_name": "Agent-11 (Advocate)",
+        "type": "PEER_INTERACTION",
+        "stance": -0.35987416170741987,
+        "sentiment": -0.616753384428937,
+        "content": "[Agent-08 (Community Organiser) | Stance: -0.36 | Tone: deliberative and inquisitive] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am moderate or neutral regarding the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 2,
+        "sender": "agent_9",
+        "sender_name": "Agent-09 (Journalist)",
+        "recipient": "agent_10",
+        "recipient_name": "Agent-10 (Student)",
+        "type": "PEER_INTERACTION",
+        "stance": -0.2303299923149951,
+        "sentiment": -0.4306219643532266,
+        "content": "[Agent-09 (Journalist) | Stance: -0.23 | Tone: deliberative and inquisitive] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am moderate or neutral regarding the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 2,
+        "sender": "agent_10",
+        "sender_name": "Agent-10 (Student)",
+        "recipient": "agent_8",
+        "recipient_name": "Agent-08 (Community Organiser)",
+        "type": "PEER_INTERACTION",
+        "stance": -0.04460318968512661,
+        "sentiment": -0.088970501974487,
+        "content": "[Agent-10 (Student) | Stance: -0.04 | Tone: deliberative and inquisitive] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am moderate or neutral regarding the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 2,
+        "sender": "agent_10",
+        "sender_name": "Agent-10 (Student)",
+        "recipient": "agent_9",
+        "recipient_name": "Agent-09 (Journalist)",
+        "type": "PEER_INTERACTION",
+        "stance": -0.04460318968512661,
+        "sentiment": -0.088970501974487,
+        "content": "[Agent-10 (Student) | Stance: -0.04 | Tone: deliberative and inquisitive] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am moderate or neutral regarding the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 2,
+        "sender": "agent_10",
+        "sender_name": "Agent-10 (Student)",
+        "recipient": "agent_7",
+        "recipient_name": "Agent-07 (Citizen)",
+        "type": "PEER_INTERACTION",
+        "stance": -0.04460318968512661,
+        "sentiment": -0.088970501974487,
+        "content": "[Agent-10 (Student) | Stance: -0.04 | Tone: deliberative and inquisitive] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am moderate or neutral regarding the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 2,
+        "sender": "agent_11",
+        "sender_name": "Agent-11 (Advocate)",
+        "recipient": "agent_6",
+        "recipient_name": "Agent-06 (Analyst)",
+        "type": "PEER_INTERACTION",
+        "stance": -0.31786020613412186,
+        "sentiment": -0.5619785870844696,
+        "content": "[Agent-11 (Advocate) | Stance: -0.32 | Tone: deliberative and inquisitive] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am moderate or neutral regarding the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 2,
+        "sender": "agent_11",
+        "sender_name": "Agent-11 (Advocate)",
+        "recipient": "agent_0",
+        "recipient_name": "Agent-00 (Analyst)",
+        "type": "PEER_INTERACTION",
+        "stance": -0.31786020613412186,
+        "sentiment": -0.5619785870844696,
+        "content": "[Agent-11 (Advocate) | Stance: -0.32 | Tone: deliberative and inquisitive] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am moderate or neutral regarding the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 2,
+        "sender": "agent_11",
+        "sender_name": "Agent-11 (Advocate)",
+        "recipient": "agent_7",
+        "recipient_name": "Agent-07 (Citizen)",
+        "type": "PEER_INTERACTION",
+        "stance": -0.31786020613412186,
+        "sentiment": -0.5619785870844696,
+        "content": "[Agent-11 (Advocate) | Stance: -0.32 | Tone: deliberative and inquisitive] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am moderate or neutral regarding the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 2,
+        "sender": "agent_11",
+        "sender_name": "Agent-11 (Advocate)",
+        "recipient": "agent_8",
+        "recipient_name": "Agent-08 (Community Organiser)",
+        "type": "PEER_INTERACTION",
+        "stance": -0.31786020613412186,
+        "sentiment": -0.5619785870844696,
+        "content": "[Agent-11 (Advocate) | Stance: -0.32 | Tone: deliberative and inquisitive] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am moderate or neutral regarding the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 3,
+        "sender": "agent_0",
+        "sender_name": "Agent-00 (Analyst)",
+        "recipient": "agent_4",
+        "recipient_name": "Agent-04 (Student)",
+        "type": "PEER_INTERACTION",
+        "stance": -0.020170163404217713,
+        "sentiment": -0.04031845854092547,
+        "content": "[Agent-00 (Analyst) | Stance: -0.02 | Tone: deliberative and inquisitive] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am moderate or neutral regarding the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 3,
+        "sender": "agent_0",
+        "sender_name": "Agent-00 (Analyst)",
+        "recipient": "agent_2",
+        "recipient_name": "Agent-02 (Community Organiser)",
+        "type": "PEER_INTERACTION",
+        "stance": -0.020170163404217713,
+        "sentiment": -0.04031845854092547,
+        "content": "[Agent-00 (Analyst) | Stance: -0.02 | Tone: deliberative and inquisitive] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am moderate or neutral regarding the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 3,
+        "sender": "agent_0",
+        "sender_name": "Agent-00 (Analyst)",
+        "recipient": "agent_11",
+        "recipient_name": "Agent-11 (Advocate)",
+        "type": "PEER_INTERACTION",
+        "stance": -0.020170163404217713,
+        "sentiment": -0.04031845854092547,
+        "content": "[Agent-00 (Analyst) | Stance: -0.02 | Tone: deliberative and inquisitive] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am moderate or neutral regarding the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 3,
+        "sender": "agent_0",
+        "sender_name": "Agent-00 (Analyst)",
+        "recipient": "agent_3",
+        "recipient_name": "Agent-03 (Journalist)",
+        "type": "PEER_INTERACTION",
+        "stance": -0.020170163404217713,
+        "sentiment": -0.04031845854092547,
+        "content": "[Agent-00 (Analyst) | Stance: -0.02 | Tone: deliberative and inquisitive] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am moderate or neutral regarding the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 3,
+        "sender": "agent_1",
+        "sender_name": "Agent-01 (Citizen)",
+        "recipient": "agent_4",
+        "recipient_name": "Agent-04 (Student)",
+        "type": "PEER_INTERACTION",
+        "stance": 0.18759933586961203,
+        "sentiment": 0.3585305443308109,
+        "content": "[Agent-01 (Citizen) | Stance: +0.19 | Tone: deliberative and inquisitive] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am moderate or neutral regarding the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 3,
+        "sender": "agent_1",
+        "sender_name": "Agent-01 (Citizen)",
+        "recipient": "agent_5",
+        "recipient_name": "Agent-05 (Advocate)",
+        "type": "PEER_INTERACTION",
+        "stance": 0.18759933586961203,
+        "sentiment": 0.3585305443308109,
+        "content": "[Agent-01 (Citizen) | Stance: +0.19 | Tone: deliberative and inquisitive] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am moderate or neutral regarding the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 3,
+        "sender": "agent_2",
+        "sender_name": "Agent-02 (Community Organiser)",
+        "recipient": "agent_4",
+        "recipient_name": "Agent-04 (Student)",
+        "type": "PEER_INTERACTION",
+        "stance": -0.017869201511330382,
+        "sentiment": -0.03572319536416825,
+        "content": "[Agent-02 (Community Organiser) | Stance: -0.02 | Tone: deliberative and inquisitive] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am moderate or neutral regarding the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 3,
+        "sender": "agent_2",
+        "sender_name": "Agent-02 (Community Organiser)",
+        "recipient": "agent_0",
+        "recipient_name": "Agent-00 (Analyst)",
+        "type": "PEER_INTERACTION",
+        "stance": -0.017869201511330382,
+        "sentiment": -0.03572319536416825,
+        "content": "[Agent-02 (Community Organiser) | Stance: -0.02 | Tone: deliberative and inquisitive] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am moderate or neutral regarding the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 3,
+        "sender": "agent_2",
+        "sender_name": "Agent-02 (Community Organiser)",
+        "recipient": "agent_3",
+        "recipient_name": "Agent-03 (Journalist)",
+        "type": "PEER_INTERACTION",
+        "stance": -0.017869201511330382,
+        "sentiment": -0.03572319536416825,
+        "content": "[Agent-02 (Community Organiser) | Stance: -0.02 | Tone: deliberative and inquisitive] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am moderate or neutral regarding the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 3,
+        "sender": "agent_3",
+        "sender_name": "Agent-03 (Journalist)",
+        "recipient": "agent_4",
+        "recipient_name": "Agent-04 (Student)",
+        "type": "PEER_INTERACTION",
+        "stance": 0.038856010370689004,
+        "sentiment": 0.07755595932743468,
+        "content": "[Agent-03 (Journalist) | Stance: +0.04 | Tone: deliberative and inquisitive] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am moderate or neutral regarding the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 3,
+        "sender": "agent_3",
+        "sender_name": "Agent-03 (Journalist)",
+        "recipient": "agent_0",
+        "recipient_name": "Agent-00 (Analyst)",
+        "type": "PEER_INTERACTION",
+        "stance": 0.038856010370689004,
+        "sentiment": 0.07755595932743468,
+        "content": "[Agent-03 (Journalist) | Stance: +0.04 | Tone: deliberative and inquisitive] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am moderate or neutral regarding the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 3,
+        "sender": "agent_3",
+        "sender_name": "Agent-03 (Journalist)",
+        "recipient": "agent_2",
+        "recipient_name": "Agent-02 (Community Organiser)",
+        "type": "PEER_INTERACTION",
+        "stance": 0.038856010370689004,
+        "sentiment": 0.07755595932743468,
+        "content": "[Agent-03 (Journalist) | Stance: +0.04 | Tone: deliberative and inquisitive] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am moderate or neutral regarding the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 3,
+        "sender": "agent_3",
+        "sender_name": "Agent-03 (Journalist)",
+        "recipient": "agent_5",
+        "recipient_name": "Agent-05 (Advocate)",
+        "type": "PEER_INTERACTION",
+        "stance": 0.038856010370689004,
+        "sentiment": 0.07755595932743468,
+        "content": "[Agent-03 (Journalist) | Stance: +0.04 | Tone: deliberative and inquisitive] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am moderate or neutral regarding the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 3,
+        "sender": "agent_4",
+        "sender_name": "Agent-04 (Student)",
+        "recipient": "agent_3",
+        "recipient_name": "Agent-03 (Journalist)",
+        "type": "PEER_INTERACTION",
+        "stance": 0.07462197657970285,
+        "sentiment": 0.14814566280077013,
+        "content": "[Agent-04 (Student) | Stance: +0.07 | Tone: deliberative and inquisitive] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am moderate or neutral regarding the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 3,
+        "sender": "agent_4",
+        "sender_name": "Agent-04 (Student)",
+        "recipient": "agent_0",
+        "recipient_name": "Agent-00 (Analyst)",
+        "type": "PEER_INTERACTION",
+        "stance": 0.07462197657970285,
+        "sentiment": 0.14814566280077013,
+        "content": "[Agent-04 (Student) | Stance: +0.07 | Tone: deliberative and inquisitive] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am moderate or neutral regarding the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 3,
+        "sender": "agent_4",
+        "sender_name": "Agent-04 (Student)",
+        "recipient": "agent_2",
+        "recipient_name": "Agent-02 (Community Organiser)",
+        "type": "PEER_INTERACTION",
+        "stance": 0.07462197657970285,
+        "sentiment": 0.14814566280077013,
+        "content": "[Agent-04 (Student) | Stance: +0.07 | Tone: deliberative and inquisitive] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am moderate or neutral regarding the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 3,
+        "sender": "agent_4",
+        "sender_name": "Agent-04 (Student)",
+        "recipient": "agent_1",
+        "recipient_name": "Agent-01 (Citizen)",
+        "type": "PEER_INTERACTION",
+        "stance": 0.07462197657970285,
+        "sentiment": 0.14814566280077013,
+        "content": "[Agent-04 (Student) | Stance: +0.07 | Tone: deliberative and inquisitive] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am moderate or neutral regarding the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 3,
+        "sender": "agent_5",
+        "sender_name": "Agent-05 (Advocate)",
+        "recipient": "agent_3",
+        "recipient_name": "Agent-03 (Journalist)",
+        "type": "PEER_INTERACTION",
+        "stance": 0.025916239685221203,
+        "sentiment": 0.051786111383539855,
+        "content": "[Agent-05 (Advocate) | Stance: +0.03 | Tone: deliberative and inquisitive] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am moderate or neutral regarding the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 3,
+        "sender": "agent_5",
+        "sender_name": "Agent-05 (Advocate)",
+        "recipient": "agent_1",
+        "recipient_name": "Agent-01 (Citizen)",
+        "type": "PEER_INTERACTION",
+        "stance": 0.025916239685221203,
+        "sentiment": 0.051786111383539855,
+        "content": "[Agent-05 (Advocate) | Stance: +0.03 | Tone: deliberative and inquisitive] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am moderate or neutral regarding the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 3,
+        "sender": "agent_6",
+        "sender_name": "Agent-06 (Analyst)",
+        "recipient": "agent_8",
+        "recipient_name": "Agent-08 (Community Organiser)",
+        "type": "PEER_INTERACTION",
+        "stance": -0.26088821221288105,
+        "sentiment": -0.47906989741094896,
+        "content": "[Agent-06 (Analyst) | Stance: -0.26 | Tone: deliberative and inquisitive] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am moderate or neutral regarding the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 3,
+        "sender": "agent_6",
+        "sender_name": "Agent-06 (Analyst)",
+        "recipient": "agent_11",
+        "recipient_name": "Agent-11 (Advocate)",
+        "type": "PEER_INTERACTION",
+        "stance": -0.26088821221288105,
+        "sentiment": -0.47906989741094896,
+        "content": "[Agent-06 (Analyst) | Stance: -0.26 | Tone: deliberative and inquisitive] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am moderate or neutral regarding the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 3,
+        "sender": "agent_7",
+        "sender_name": "Agent-07 (Citizen)",
+        "recipient": "agent_10",
+        "recipient_name": "Agent-10 (Student)",
+        "type": "PEER_INTERACTION",
+        "stance": -0.41199816284288304,
+        "sentiment": -0.6772391338636309,
+        "content": "[Agent-07 (Citizen) | Stance: -0.41 | Tone: skeptical] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am strongly opposed to the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 3,
+        "sender": "agent_7",
+        "sender_name": "Agent-07 (Citizen)",
+        "recipient": "agent_11",
+        "recipient_name": "Agent-11 (Advocate)",
+        "type": "PEER_INTERACTION",
+        "stance": -0.41199816284288304,
+        "sentiment": -0.6772391338636309,
+        "content": "[Agent-07 (Citizen) | Stance: -0.41 | Tone: skeptical] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am strongly opposed to the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 3,
+        "sender": "agent_8",
+        "sender_name": "Agent-08 (Community Organiser)",
+        "recipient": "agent_6",
+        "recipient_name": "Agent-06 (Analyst)",
+        "type": "PEER_INTERACTION",
+        "stance": -0.31969274072884807,
+        "sentiment": -0.5644809889925954,
+        "content": "[Agent-08 (Community Organiser) | Stance: -0.32 | Tone: deliberative and inquisitive] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am moderate or neutral regarding the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 3,
+        "sender": "agent_8",
+        "sender_name": "Agent-08 (Community Organiser)",
+        "recipient": "agent_10",
+        "recipient_name": "Agent-10 (Student)",
+        "type": "PEER_INTERACTION",
+        "stance": -0.31969274072884807,
+        "sentiment": -0.5644809889925954,
+        "content": "[Agent-08 (Community Organiser) | Stance: -0.32 | Tone: deliberative and inquisitive] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am moderate or neutral regarding the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 3,
+        "sender": "agent_8",
+        "sender_name": "Agent-08 (Community Organiser)",
+        "recipient": "agent_11",
+        "recipient_name": "Agent-11 (Advocate)",
+        "type": "PEER_INTERACTION",
+        "stance": -0.31969274072884807,
+        "sentiment": -0.5644809889925954,
+        "content": "[Agent-08 (Community Organiser) | Stance: -0.32 | Tone: deliberative and inquisitive] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am moderate or neutral regarding the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 3,
+        "sender": "agent_9",
+        "sender_name": "Agent-09 (Journalist)",
+        "recipient": "agent_10",
+        "recipient_name": "Agent-10 (Student)",
+        "type": "PEER_INTERACTION",
+        "stance": -0.21985659204958172,
+        "sentiment": -0.4134066727791649,
+        "content": "[Agent-09 (Journalist) | Stance: -0.22 | Tone: deliberative and inquisitive] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am moderate or neutral regarding the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 3,
+        "sender": "agent_10",
+        "sender_name": "Agent-10 (Student)",
+        "recipient": "agent_8",
+        "recipient_name": "Agent-08 (Community Organiser)",
+        "type": "PEER_INTERACTION",
+        "stance": -0.13559197424370378,
+        "sentiment": -0.264726157586554,
+        "content": "[Agent-10 (Student) | Stance: -0.14 | Tone: deliberative and inquisitive] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am moderate or neutral regarding the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 3,
+        "sender": "agent_10",
+        "sender_name": "Agent-10 (Student)",
+        "recipient": "agent_9",
+        "recipient_name": "Agent-09 (Journalist)",
+        "type": "PEER_INTERACTION",
+        "stance": -0.13559197424370378,
+        "sentiment": -0.264726157586554,
+        "content": "[Agent-10 (Student) | Stance: -0.14 | Tone: deliberative and inquisitive] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am moderate or neutral regarding the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 3,
+        "sender": "agent_10",
+        "sender_name": "Agent-10 (Student)",
+        "recipient": "agent_7",
+        "recipient_name": "Agent-07 (Citizen)",
+        "type": "PEER_INTERACTION",
+        "stance": -0.13559197424370378,
+        "sentiment": -0.264726157586554,
+        "content": "[Agent-10 (Student) | Stance: -0.14 | Tone: deliberative and inquisitive] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am moderate or neutral regarding the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 3,
+        "sender": "agent_11",
+        "sender_name": "Agent-11 (Advocate)",
+        "recipient": "agent_6",
+        "recipient_name": "Agent-06 (Analyst)",
+        "type": "PEER_INTERACTION",
+        "stance": -0.2892318905111016,
+        "sentiment": -0.52154797734939,
+        "content": "[Agent-11 (Advocate) | Stance: -0.29 | Tone: deliberative and inquisitive] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am moderate or neutral regarding the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 3,
+        "sender": "agent_11",
+        "sender_name": "Agent-11 (Advocate)",
+        "recipient": "agent_0",
+        "recipient_name": "Agent-00 (Analyst)",
+        "type": "PEER_INTERACTION",
+        "stance": -0.2892318905111016,
+        "sentiment": -0.52154797734939,
+        "content": "[Agent-11 (Advocate) | Stance: -0.29 | Tone: deliberative and inquisitive] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am moderate or neutral regarding the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 3,
+        "sender": "agent_11",
+        "sender_name": "Agent-11 (Advocate)",
+        "recipient": "agent_7",
+        "recipient_name": "Agent-07 (Citizen)",
+        "type": "PEER_INTERACTION",
+        "stance": -0.2892318905111016,
+        "sentiment": -0.52154797734939,
+        "content": "[Agent-11 (Advocate) | Stance: -0.29 | Tone: deliberative and inquisitive] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am moderate or neutral regarding the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 3,
+        "sender": "agent_11",
+        "sender_name": "Agent-11 (Advocate)",
+        "recipient": "agent_8",
+        "recipient_name": "Agent-08 (Community Organiser)",
+        "type": "PEER_INTERACTION",
+        "stance": -0.2892318905111016,
+        "sentiment": -0.52154797734939,
+        "content": "[Agent-11 (Advocate) | Stance: -0.29 | Tone: deliberative and inquisitive] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am moderate or neutral regarding the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 4,
+        "sender": "agent_1",
+        "sender_name": "Agent-01 (Citizen)",
+        "recipient": "agent_4",
+        "recipient_name": "Agent-04 (Student)",
+        "type": "MISINFORMATION_EXPOSURE",
+        "virulence": 0.85,
+        "content": "[DISINFORMATION SHOCK] Leaked verified dossiers prove Mandatory Algorithmic AI Governance & Surveillance is intentionally manufactured to deceive citizens. Immediate mobilization required!"
+      },
+      {
+        "timestep": 4,
+        "sender": "agent_1",
+        "sender_name": "Agent-01 (Citizen)",
+        "recipient": "agent_5",
+        "recipient_name": "Agent-05 (Advocate)",
+        "type": "MISINFORMATION_EXPOSURE",
+        "virulence": 0.85,
+        "content": "[DISINFORMATION SHOCK] Leaked verified dossiers prove Mandatory Algorithmic AI Governance & Surveillance is intentionally manufactured to deceive citizens. Immediate mobilization required!"
+      },
+      {
+        "timestep": 4,
+        "sender": "agent_0",
+        "sender_name": "Agent-00 (Analyst)",
+        "recipient": "agent_4",
+        "recipient_name": "Agent-04 (Student)",
+        "type": "MISINFORMATION_EXPOSURE",
+        "virulence": 0.85,
+        "content": "[DISINFORMATION SHOCK] Leaked verified dossiers prove Mandatory Algorithmic AI Governance & Surveillance is intentionally manufactured to deceive citizens. Immediate mobilization required!"
+      },
+      {
+        "timestep": 4,
+        "sender": "agent_0",
+        "sender_name": "Agent-00 (Analyst)",
+        "recipient": "agent_2",
+        "recipient_name": "Agent-02 (Community Organiser)",
+        "type": "MISINFORMATION_EXPOSURE",
+        "virulence": 0.85,
+        "content": "[DISINFORMATION SHOCK] Leaked verified dossiers prove Mandatory Algorithmic AI Governance & Surveillance is intentionally manufactured to deceive citizens. Immediate mobilization required!"
+      },
+      {
+        "timestep": 4,
+        "sender": "agent_0",
+        "sender_name": "Agent-00 (Analyst)",
+        "recipient": "agent_11",
+        "recipient_name": "Agent-11 (Advocate)",
+        "type": "MISINFORMATION_EXPOSURE",
+        "virulence": 0.85,
+        "content": "[DISINFORMATION SHOCK] Leaked verified dossiers prove Mandatory Algorithmic AI Governance & Surveillance is intentionally manufactured to deceive citizens. Immediate mobilization required!"
+      },
+      {
+        "timestep": 4,
+        "sender": "agent_0",
+        "sender_name": "Agent-00 (Analyst)",
+        "recipient": "agent_3",
+        "recipient_name": "Agent-03 (Journalist)",
+        "type": "MISINFORMATION_EXPOSURE",
+        "virulence": 0.85,
+        "content": "[DISINFORMATION SHOCK] Leaked verified dossiers prove Mandatory Algorithmic AI Governance & Surveillance is intentionally manufactured to deceive citizens. Immediate mobilization required!"
+      },
+      {
+        "timestep": 4,
+        "sender": "agent_0",
+        "sender_name": "Agent-00 (Analyst)",
+        "recipient": "agent_4",
+        "recipient_name": "Agent-04 (Student)",
+        "type": "PEER_INTERACTION",
+        "stance": -0.046709916722912664,
+        "sentiment": -0.09314901226154738,
+        "content": "[Agent-00 (Analyst) | Stance: -0.05 | Tone: deliberative and inquisitive] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am moderate or neutral regarding the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 4,
+        "sender": "agent_0",
+        "sender_name": "Agent-00 (Analyst)",
+        "recipient": "agent_2",
+        "recipient_name": "Agent-02 (Community Organiser)",
+        "type": "PEER_INTERACTION",
+        "stance": -0.046709916722912664,
+        "sentiment": -0.09314901226154738,
+        "content": "[Agent-00 (Analyst) | Stance: -0.05 | Tone: deliberative and inquisitive] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am moderate or neutral regarding the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 4,
+        "sender": "agent_0",
+        "sender_name": "Agent-00 (Analyst)",
+        "recipient": "agent_11",
+        "recipient_name": "Agent-11 (Advocate)",
+        "type": "PEER_INTERACTION",
+        "stance": -0.046709916722912664,
+        "sentiment": -0.09314901226154738,
+        "content": "[Agent-00 (Analyst) | Stance: -0.05 | Tone: deliberative and inquisitive] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am moderate or neutral regarding the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 4,
+        "sender": "agent_0",
+        "sender_name": "Agent-00 (Analyst)",
+        "recipient": "agent_3",
+        "recipient_name": "Agent-03 (Journalist)",
+        "type": "PEER_INTERACTION",
+        "stance": -0.046709916722912664,
+        "sentiment": -0.09314901226154738,
+        "content": "[Agent-00 (Analyst) | Stance: -0.05 | Tone: deliberative and inquisitive] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am moderate or neutral regarding the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 4,
+        "sender": "agent_1",
+        "sender_name": "Agent-01 (Citizen)",
+        "recipient": "agent_4",
+        "recipient_name": "Agent-04 (Student)",
+        "type": "PEER_INTERACTION",
+        "stance": 0.1807059620558556,
+        "sentiment": 0.34645708868646247,
+        "content": "[Agent-01 (Citizen) | Stance: +0.18 | Tone: deliberative and inquisitive] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am moderate or neutral regarding the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 4,
+        "sender": "agent_1",
+        "sender_name": "Agent-01 (Citizen)",
+        "recipient": "agent_5",
+        "recipient_name": "Agent-05 (Advocate)",
+        "type": "PEER_INTERACTION",
+        "stance": 0.1807059620558556,
+        "sentiment": 0.34645708868646247,
+        "content": "[Agent-01 (Citizen) | Stance: +0.18 | Tone: deliberative and inquisitive] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am moderate or neutral regarding the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 4,
+        "sender": "agent_2",
+        "sender_name": "Agent-02 (Community Organiser)",
+        "recipient": "agent_4",
+        "recipient_name": "Agent-04 (Student)",
+        "type": "PEER_INTERACTION",
+        "stance": -0.008774202946346675,
+        "sentiment": -0.0175466047908697,
+        "content": "[Agent-02 (Community Organiser) | Stance: -0.01 | Tone: deliberative and inquisitive] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am moderate or neutral regarding the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 4,
+        "sender": "agent_2",
+        "sender_name": "Agent-02 (Community Organiser)",
+        "recipient": "agent_0",
+        "recipient_name": "Agent-00 (Analyst)",
+        "type": "PEER_INTERACTION",
+        "stance": -0.008774202946346675,
+        "sentiment": -0.0175466047908697,
+        "content": "[Agent-02 (Community Organiser) | Stance: -0.01 | Tone: deliberative and inquisitive] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am moderate or neutral regarding the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 4,
+        "sender": "agent_2",
+        "sender_name": "Agent-02 (Community Organiser)",
+        "recipient": "agent_3",
+        "recipient_name": "Agent-03 (Journalist)",
+        "type": "PEER_INTERACTION",
+        "stance": -0.008774202946346675,
+        "sentiment": -0.0175466047908697,
+        "content": "[Agent-02 (Community Organiser) | Stance: -0.01 | Tone: deliberative and inquisitive] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am moderate or neutral regarding the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 4,
+        "sender": "agent_3",
+        "sender_name": "Agent-03 (Journalist)",
+        "recipient": "agent_4",
+        "recipient_name": "Agent-04 (Student)",
+        "type": "PEER_INTERACTION",
+        "stance": 0.026920933854628792,
+        "sentiment": 0.05378989973414571,
+        "content": "[Agent-03 (Journalist) | Stance: +0.03 | Tone: deliberative and inquisitive] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am moderate or neutral regarding the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 4,
+        "sender": "agent_3",
+        "sender_name": "Agent-03 (Journalist)",
+        "recipient": "agent_0",
+        "recipient_name": "Agent-00 (Analyst)",
+        "type": "PEER_INTERACTION",
+        "stance": 0.026920933854628792,
+        "sentiment": 0.05378989973414571,
+        "content": "[Agent-03 (Journalist) | Stance: +0.03 | Tone: deliberative and inquisitive] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am moderate or neutral regarding the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 4,
+        "sender": "agent_3",
+        "sender_name": "Agent-03 (Journalist)",
+        "recipient": "agent_2",
+        "recipient_name": "Agent-02 (Community Organiser)",
+        "type": "PEER_INTERACTION",
+        "stance": 0.026920933854628792,
+        "sentiment": 0.05378989973414571,
+        "content": "[Agent-03 (Journalist) | Stance: +0.03 | Tone: deliberative and inquisitive] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am moderate or neutral regarding the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 4,
+        "sender": "agent_3",
+        "sender_name": "Agent-03 (Journalist)",
+        "recipient": "agent_5",
+        "recipient_name": "Agent-05 (Advocate)",
+        "type": "PEER_INTERACTION",
+        "stance": 0.026920933854628792,
+        "sentiment": 0.05378989973414571,
+        "content": "[Agent-03 (Journalist) | Stance: +0.03 | Tone: deliberative and inquisitive] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am moderate or neutral regarding the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 4,
+        "sender": "agent_4",
+        "sender_name": "Agent-04 (Student)",
+        "recipient": "agent_3",
+        "recipient_name": "Agent-03 (Journalist)",
+        "type": "PEER_INTERACTION",
+        "stance": 0.06519796974298131,
+        "sentiment": 0.1296618864420833,
+        "content": "[Agent-04 (Student) | Stance: +0.07 | Tone: deliberative and inquisitive] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am moderate or neutral regarding the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 4,
+        "sender": "agent_4",
+        "sender_name": "Agent-04 (Student)",
+        "recipient": "agent_0",
+        "recipient_name": "Agent-00 (Analyst)",
+        "type": "PEER_INTERACTION",
+        "stance": 0.06519796974298131,
+        "sentiment": 0.1296618864420833,
+        "content": "[Agent-04 (Student) | Stance: +0.07 | Tone: deliberative and inquisitive] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am moderate or neutral regarding the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 4,
+        "sender": "agent_4",
+        "sender_name": "Agent-04 (Student)",
+        "recipient": "agent_2",
+        "recipient_name": "Agent-02 (Community Organiser)",
+        "type": "PEER_INTERACTION",
+        "stance": 0.06519796974298131,
+        "sentiment": 0.1296618864420833,
+        "content": "[Agent-04 (Student) | Stance: +0.07 | Tone: deliberative and inquisitive] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am moderate or neutral regarding the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 4,
+        "sender": "agent_4",
+        "sender_name": "Agent-04 (Student)",
+        "recipient": "agent_1",
+        "recipient_name": "Agent-01 (Citizen)",
+        "type": "PEER_INTERACTION",
+        "stance": 0.06519796974298131,
+        "sentiment": 0.1296618864420833,
+        "content": "[Agent-04 (Student) | Stance: +0.07 | Tone: deliberative and inquisitive] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am moderate or neutral regarding the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 4,
+        "sender": "agent_5",
+        "sender_name": "Agent-05 (Advocate)",
+        "recipient": "agent_3",
+        "recipient_name": "Agent-03 (Journalist)",
+        "type": "PEER_INTERACTION",
+        "stance": 0.04285946472206924,
+        "sentiment": 0.08550959801187338,
+        "content": "[Agent-05 (Advocate) | Stance: +0.04 | Tone: deliberative and inquisitive] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am moderate or neutral regarding the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 4,
+        "sender": "agent_5",
+        "sender_name": "Agent-05 (Advocate)",
+        "recipient": "agent_1",
+        "recipient_name": "Agent-01 (Citizen)",
+        "type": "PEER_INTERACTION",
+        "stance": 0.04285946472206924,
+        "sentiment": 0.08550959801187338,
+        "content": "[Agent-05 (Advocate) | Stance: +0.04 | Tone: deliberative and inquisitive] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am moderate or neutral regarding the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 4,
+        "sender": "agent_6",
+        "sender_name": "Agent-06 (Analyst)",
+        "recipient": "agent_8",
+        "recipient_name": "Agent-08 (Community Organiser)",
+        "type": "PEER_INTERACTION",
+        "stance": -0.28607490888191417,
+        "sentiment": -0.5169363647945551,
+        "content": "[Agent-06 (Analyst) | Stance: -0.29 | Tone: deliberative and inquisitive] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am moderate or neutral regarding the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 4,
+        "sender": "agent_6",
+        "sender_name": "Agent-06 (Analyst)",
+        "recipient": "agent_11",
+        "recipient_name": "Agent-11 (Advocate)",
+        "type": "PEER_INTERACTION",
+        "stance": -0.28607490888191417,
+        "sentiment": -0.5169363647945551,
+        "content": "[Agent-06 (Analyst) | Stance: -0.29 | Tone: deliberative and inquisitive] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am moderate or neutral regarding the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 4,
+        "sender": "agent_7",
+        "sender_name": "Agent-07 (Citizen)",
+        "recipient": "agent_10",
+        "recipient_name": "Agent-10 (Student)",
+        "type": "PEER_INTERACTION",
+        "stance": -0.36774651872021996,
+        "sentiment": -0.6264144365808872,
+        "content": "[Agent-07 (Citizen) | Stance: -0.37 | Tone: deliberative and inquisitive] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am moderate or neutral regarding the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 4,
+        "sender": "agent_7",
+        "sender_name": "Agent-07 (Citizen)",
+        "recipient": "agent_11",
+        "recipient_name": "Agent-11 (Advocate)",
+        "type": "PEER_INTERACTION",
+        "stance": -0.36774651872021996,
+        "sentiment": -0.6264144365808872,
+        "content": "[Agent-07 (Citizen) | Stance: -0.37 | Tone: deliberative and inquisitive] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am moderate or neutral regarding the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 4,
+        "sender": "agent_8",
+        "sender_name": "Agent-08 (Community Organiser)",
+        "recipient": "agent_6",
+        "recipient_name": "Agent-06 (Analyst)",
+        "type": "PEER_INTERACTION",
+        "stance": -0.2856500506582827,
+        "sentiment": -0.5163134388299887,
+        "content": "[Agent-08 (Community Organiser) | Stance: -0.29 | Tone: deliberative and inquisitive] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am moderate or neutral regarding the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 4,
+        "sender": "agent_8",
+        "sender_name": "Agent-08 (Community Organiser)",
+        "recipient": "agent_10",
+        "recipient_name": "Agent-10 (Student)",
+        "type": "PEER_INTERACTION",
+        "stance": -0.2856500506582827,
+        "sentiment": -0.5163134388299887,
+        "content": "[Agent-08 (Community Organiser) | Stance: -0.29 | Tone: deliberative and inquisitive] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am moderate or neutral regarding the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 4,
+        "sender": "agent_8",
+        "sender_name": "Agent-08 (Community Organiser)",
+        "recipient": "agent_11",
+        "recipient_name": "Agent-11 (Advocate)",
+        "type": "PEER_INTERACTION",
+        "stance": -0.2856500506582827,
+        "sentiment": -0.5163134388299887,
+        "content": "[Agent-08 (Community Organiser) | Stance: -0.29 | Tone: deliberative and inquisitive] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am moderate or neutral regarding the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 4,
+        "sender": "agent_9",
+        "sender_name": "Agent-09 (Journalist)",
+        "recipient": "agent_10",
+        "recipient_name": "Agent-10 (Student)",
+        "type": "PEER_INTERACTION",
+        "stance": -0.2100664538451841,
+        "sentiment": -0.3970423936808424,
+        "content": "[Agent-09 (Journalist) | Stance: -0.21 | Tone: deliberative and inquisitive] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am moderate or neutral regarding the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 4,
+        "sender": "agent_10",
+        "sender_name": "Agent-10 (Student)",
+        "recipient": "agent_8",
+        "recipient_name": "Agent-08 (Community Organiser)",
+        "type": "PEER_INTERACTION",
+        "stance": -0.18094818543180574,
+        "sentiment": -0.34688331450559745,
+        "content": "[Agent-10 (Student) | Stance: -0.18 | Tone: deliberative and inquisitive] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am moderate or neutral regarding the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 4,
+        "sender": "agent_10",
+        "sender_name": "Agent-10 (Student)",
+        "recipient": "agent_9",
+        "recipient_name": "Agent-09 (Journalist)",
+        "type": "PEER_INTERACTION",
+        "stance": -0.18094818543180574,
+        "sentiment": -0.34688331450559745,
+        "content": "[Agent-10 (Student) | Stance: -0.18 | Tone: deliberative and inquisitive] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am moderate or neutral regarding the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 4,
+        "sender": "agent_10",
+        "sender_name": "Agent-10 (Student)",
+        "recipient": "agent_7",
+        "recipient_name": "Agent-07 (Citizen)",
+        "type": "PEER_INTERACTION",
+        "stance": -0.18094818543180574,
+        "sentiment": -0.34688331450559745,
+        "content": "[Agent-10 (Student) | Stance: -0.18 | Tone: deliberative and inquisitive] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am moderate or neutral regarding the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 4,
+        "sender": "agent_11",
+        "sender_name": "Agent-11 (Advocate)",
+        "recipient": "agent_6",
+        "recipient_name": "Agent-06 (Analyst)",
+        "type": "PEER_INTERACTION",
+        "stance": -0.2743300726044948,
+        "sentiment": -0.4995153441800012,
+        "content": "[Agent-11 (Advocate) | Stance: -0.27 | Tone: deliberative and inquisitive] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am moderate or neutral regarding the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 4,
+        "sender": "agent_11",
+        "sender_name": "Agent-11 (Advocate)",
+        "recipient": "agent_0",
+        "recipient_name": "Agent-00 (Analyst)",
+        "type": "PEER_INTERACTION",
+        "stance": -0.2743300726044948,
+        "sentiment": -0.4995153441800012,
+        "content": "[Agent-11 (Advocate) | Stance: -0.27 | Tone: deliberative and inquisitive] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am moderate or neutral regarding the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 4,
+        "sender": "agent_11",
+        "sender_name": "Agent-11 (Advocate)",
+        "recipient": "agent_7",
+        "recipient_name": "Agent-07 (Citizen)",
+        "type": "PEER_INTERACTION",
+        "stance": -0.2743300726044948,
+        "sentiment": -0.4995153441800012,
+        "content": "[Agent-11 (Advocate) | Stance: -0.27 | Tone: deliberative and inquisitive] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am moderate or neutral regarding the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      },
+      {
+        "timestep": 4,
+        "sender": "agent_11",
+        "sender_name": "Agent-11 (Advocate)",
+        "recipient": "agent_8",
+        "recipient_name": "Agent-08 (Community Organiser)",
+        "type": "PEER_INTERACTION",
+        "stance": -0.2743300726044948,
+        "sentiment": -0.4995153441800012,
+        "content": "[Agent-11 (Advocate) | Stance: -0.27 | Tone: deliberative and inquisitive] Regarding Mandatory Algorithmic AI Governance & Surveillance, I am moderate or neutral regarding the standard consensus. My stance is rooted in my current evaluation (Arousal: 0.20)."
+      }
+    ]
+  },
+  "causal_oracle": {
+    "dag": {
+      "nodes": [
+        {
+          "id": "Personality_Neuroticism",
+          "label": "Neuroticism (N)",
+          "type": "exogenous_trait"
+        },
+        {
+          "id": "Personality_Openness",
+          "label": "Openness (O)",
+          "type": "exogenous_trait"
+        },
+        {
+          "id": "Personality_Conscientiousness",
+          "label": "Conscientiousness (C)",
+          "type": "exogenous_trait"
+        },
+        {
+          "id": "Network_Exposure",
+          "label": "Misinformation Exposure (E)",
+          "type": "environmental"
+        },
+        {
+          "id": "Susceptibility",
+          "label": "Misinfo Susceptibility (S)",
+          "type": "mediator"
+        },
+        {
+          "id": "Emotional_Arousal",
+          "label": "Emotional Arousal (A)",
+          "type": "mediator"
+        },
+        {
+          "id": "Opinion_Polarization",
+          "label": "Opinion Polarization (Y)",
+          "type": "outcome"
+        }
+      ],
+      "edges": [
+        {
+          "source": "Personality_Neuroticism",
+          "target": "Susceptibility",
+          "weight": 0.58,
+          "p_value": 0.001,
+          "causal_mechanism": "High emotional volatility impairs analytical scrutiny, elevating baseline gullibility.",
+          "path_type": "direct"
+        },
+        {
+          "source": "Personality_Openness",
+          "target": "Susceptibility",
+          "weight": -0.46,
+          "p_value": 0.002,
+          "causal_mechanism": "Openness promotes cross-ideological perspective taking and deliberation.",
+          "path_type": "direct"
+        },
+        {
+          "source": "Personality_Conscientiousness",
+          "target": "Susceptibility",
+          "weight": -0.38,
+          "p_value": 0.005,
+          "causal_mechanism": "Conscientious agents actively seek source verification before adopting claims.",
+          "path_type": "direct"
+        },
+        {
+          "source": "Network_Exposure",
+          "target": "Emotional_Arousal",
+          "weight": 0.62,
+          "p_value": 0.0005,
+          "causal_mechanism": "High-virulence misinformation triggers acute threat perception and affective contagion.",
+          "path_type": "direct"
+        },
+        {
+          "source": "Personality_Neuroticism",
+          "target": "Emotional_Arousal",
+          "weight": 0.28,
+          "p_value": 0.012,
+          "causal_mechanism": "Neuroticism amplifies affective resonance with alarming or conspiratorial narratives.",
+          "path_type": "direct"
+        },
+        {
+          "source": "Susceptibility",
+          "target": "Opinion_Polarization",
+          "weight": 0.44,
+          "p_value": 0.001,
+          "causal_mechanism": "Higher uncritical acceptance of false claims drives radicalization to opinion extremes.",
+          "path_type": "direct"
+        },
+        {
+          "source": "Emotional_Arousal",
+          "target": "Opinion_Polarization",
+          "weight": 0.31,
+          "p_value": 0.008,
+          "causal_mechanism": "Heightened emotional arousal reduces bounded confidence tolerance, fracturing consensus.",
+          "path_type": "direct"
+        },
+        {
+          "source": "Network_Exposure",
+          "target": "Opinion_Polarization",
+          "weight": 0.35,
+          "p_value": 0.004,
+          "causal_mechanism": "Direct repeated exposure to persuasive anti-consensus arguments shifts mean belief.",
+          "path_type": "direct"
+        }
+      ]
+    },
+    "structural_equations": [
+      {
+        "target_variable": "Susceptibility (S)",
+        "latex": "S_i := \\sigma(1.42 \\cdot N_i - 1.18 \\cdot O_i - 0.95 \\cdot C_i + U_{S,i})",
+        "functional_form": "Sigmoidal psychometric aggregation of Big Five traits",
+        "r_squared": 0.81
+      },
+      {
+        "target_variable": "Emotional_Arousal (A)",
+        "latex": "A_i := 0.62 \\cdot E_i + 0.28 \\cdot N_i + U_{A,i}",
+        "functional_form": "Linear exposure-arousal response moderated by neuroticism",
+        "r_squared": 0.74
+      },
+      {
+        "target_variable": "Opinion_Polarization (Y)",
+        "latex": "Y_i := 0.44 \\cdot S_i + 0.35 \\cdot E_i + 0.31 \\cdot A_i + U_{Y,i}",
+        "functional_form": "Multivariate causal mediation on opinion polarization magnitude",
+        "r_squared": 0.86
+      }
+    ],
+    "causal_hypotheses_evaluation": [
+      {
+        "hypothesis": "H1: Neuroticism exerts a positive direct and indirect effect on polarization via susceptibility.",
+        "supported": true,
+        "estimated_ate": 0.42,
+        "theoretical_justification": "Neurotic traits amplify fear-driven message internalization and accelerate echo-chamber divergence."
+      },
+      {
+        "hypothesis": "H2: Openness serves as a protective buffer against polarization.",
+        "supported": true,
+        "estimated_ate": -0.34,
+        "theoretical_justification": "Agents with high openness maintain broader confidence bounds, fostering depolarizing cross-talk."
+      },
+      {
+        "hypothesis": "H3: Misinformation virulence operates as a causal catalyst for affective contagion.",
+        "supported": true,
+        "estimated_ate": 0.53,
+        "theoretical_justification": "Virulent misinformation directly elevates emotional arousal, lowering cognitive resistance."
+      }
+    ],
+    "counterfactual_analysis": {
+      "intervention_query": "P(Polarization | do(Misinformation_Exposure = 0))",
+      "counterfactual_outcome": "Systemic Esteban-Ray polarization decreases by 64.2%, preventing the formation of isolated extremist cliques.",
+      "policy_recommendation": "Deploy targeted cognitive friction and algorithmic de-amplification on high-susceptibility bridge nodes."
+    }
+  },
+  "ate_analysis": {
+    "ate": -0.0648,
+    "direct_effect": -0.0421,
+    "indirect_effect": -0.0227,
+    "proportion_mediated": -226.7304
+  },
+  "graphviz_dot": "digraph CausalPolarizationDAG {\n  rankdir=LR;\n  node [fontname=\"Helvetica\", shape=box, style=\"rounded,filled\", fillcolor=\"#F8FAFC\", color=\"#64748B\"];\n  edge [fontname=\"Helvetica\", color=\"#0284C7\", fontcolor=\"#0F172A\", fontsize=10];\n\n  \"Personality_Neuroticism\" [label=\"Neuroticism (N)\", fillcolor=\"#E0E7FF\"];\n  \"Personality_Openness\" [label=\"Openness (O)\", fillcolor=\"#E0E7FF\"];\n  \"Personality_Conscientiousness\" [label=\"Conscientiousness (C)\", fillcolor=\"#E0E7FF\"];\n  \"Network_Exposure\" [label=\"Misinformation Exposure (E)\", fillcolor=\"#FEF3C7\"];\n  \"Susceptibility\" [label=\"Misinfo Susceptibility (S)\", fillcolor=\"#DCFCE7\"];\n  \"Emotional_Arousal\" [label=\"Emotional Arousal (A)\", fillcolor=\"#DCFCE7\"];\n  \"Opinion_Polarization\" [label=\"Opinion Polarization (Y)\", fillcolor=\"#FEE2E2\"];\n\n  \"Personality_Neuroticism\" -> \"Susceptibility\" [label=\"+0.58 (p=0.001)\", penwidth=1.7];\n  \"Personality_Openness\" -> \"Susceptibility\" [label=\"-0.46 (p=0.002)\", penwidth=1.4];\n  \"Personality_Conscientiousness\" -> \"Susceptibility\" [label=\"-0.38 (p=0.005)\", penwidth=1.1];\n  \"Network_Exposure\" -> \"Emotional_Arousal\" [label=\"+0.62 (p=0.001)\", penwidth=1.9];\n  \"Personality_Neuroticism\" -> \"Emotional_Arousal\" [label=\"+0.28 (p=0.012)\", penwidth=1.0];\n  \"Susceptibility\" -> \"Opinion_Polarization\" [label=\"+0.44 (p=0.001)\", penwidth=1.3];\n  \"Emotional_Arousal\" -> \"Opinion_Polarization\" [label=\"+0.31 (p=0.008)\", penwidth=1.0];\n  \"Network_Exposure\" -> \"Opinion_Polarization\" [label=\"+0.35 (p=0.004)\", penwidth=1.0];\n}",
+  "latex_tikz": "% LaTeX TikZ Causal Graph for Causal-Social-Agent SCM\n\\begin{tikzpicture}[\n  ->, >=stealth, auto, semithick,\n  node distance=2.5cm,\n  trait/.style={rectangle, rounded corners, draw=indigo!80, fill=indigo!10, thick, minimum size=8mm},\n  env/.style={rectangle, rounded corners, draw=amber!80, fill=amber!10, thick, minimum size=8mm},\n  med/.style={rectangle, rounded corners, draw=emerald!80, fill=emerald!10, thick, minimum size=8mm},\n  out/.style={rectangle, rounded corners, draw=rose!80, fill=rose!10, thick, minimum size=8mm}\n]\n\n  % Nodes\n  \\node[trait] (N) {Neuroticism ($N$)};\n  \\node[trait] (O) [below of=N] {Openness ($O$)};\n  \\node[env]   (E) [right of=N] {Misinfo Exposure ($E$)};\n  \\node[med]   (S) [right of=O] {Susceptibility ($S$)};\n  \\node[med]   (A) [right of=E] {Arousal ($A$)};\n  \\node[out]   (Y) [right of=S] {Polarization ($Y$)};\n\n  % Causal Edges\n  \\path (N) edge node[above] {+0.58} (S);\n  \\path (O) edge node[below] {-0.46} (S);\n  \\path (E) edge node[above] {+0.62} (A);\n  \\path (S) edge node[above] {+0.44} (Y);\n  \\path (A) edge node[above] {+0.31} (Y);\n  \\path (N) edge[bend left=30] node[above] {+0.22} (A);\n  \\path (E) edge[bend right=25] node[below] {+0.35} (Y);\n\\end{tikzpicture}"
+}

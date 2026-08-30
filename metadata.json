@@ -1,0 +1,6 @@
+{
+  "name": "Causal-Social-Agent",
+  "description": "Computational Social Science framework integrating LLM Agents, Causal Inference, and Structural Causal Models (SCMs) for modeling opinion polarization and misinformation dynamics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
